@@ -1,0 +1,357 @@
+from turtle import *
+pensize(3)
+speed(10)
+
+
+# 7
+
+def rama() :
+    penup()
+    goto(-528, -10)
+    pendown()
+    color('black')
+    begin_fill()
+    for i in range(2) :
+        forward(6)
+        right(90)
+        forward(80)
+        right(90)
+    end_fill()
+    penup()
+    goto(-550, -48)
+    pendown()
+    color('black')
+    begin_fill()
+    for i in range(2) :
+        forward(50)
+        right(90)
+        forward(6)
+        right(90)
+    end_fill()
+
+
+
+# 12
+
+def dymohod() :
+    penup()
+    goto(-373, 180)
+    pendown()
+    color('black')
+    begin_fill()
+    left(175)
+    forward(70)
+    right(90)
+    forward(40)
+    right(90)
+    forward(141)
+    left(90)
+    end_fill()    
+
+
+# 9
+
+def garaj() :
+    penup()
+    goto(-298, -100)
+    pendown()
+    color('light gray')
+    begin_fill()
+    for i in range(2) :
+        forward(200)
+        right(90)
+        forward(150)
+        right(90)
+    end_fill()
+    penup()
+    goto(-282, -130)
+    pendown()
+    color('black')
+    begin_fill()
+    for i in range(2) :
+        forward(170)
+        right(90)
+        forward(120)
+        right(90)
+    end_fill()
+
+
+# 8
+
+def dver() :
+    penup()
+    goto(-420, -250)
+    pendown()
+    color('brown')
+    begin_fill()
+    for i in range(2) :
+        forward(65)
+        left(90)
+        forward(115)
+        left(90)
+    end_fill()
+
+
+# 1
+
+def fon_nebo() :
+    penup()
+    goto(-1000, 500)
+    pendown()
+    color('blue')
+    begin_fill()
+    for i in range(4) :
+        forward(2000)
+        right(90)
+    end_fill()
+
+
+# 2
+
+def fon_zemlya() :
+    penup()
+    goto(-1000, -150)
+    pendown()
+    color('green')
+    begin_fill()
+    for i in range(4) :
+        forward(2000)
+        right(90)
+    end_fill()
+
+
+ 
+
+
+
+# 5
+
+def krysha() :
+    penup()
+    goto(-600, 50)
+    pendown()
+    color('grey')
+    begin_fill()
+    for i in range(3) :
+        forward(300)
+        right(-120)
+    end_fill()
+
+
+
+# 14
+
+def sun() :
+    penup()
+    goto(700, 200)
+    pendown()
+    color('yellow')
+    begin_fill()
+    for i in range(23) :
+        left(5)
+        forward(150)
+        left(120)
+    end_fill()
+
+
+
+# 4
+
+def dom_chast() :
+    penup()
+    goto(-600, -250)
+    pendown()
+    color('orange')
+    begin_fill()
+    for i in range(4) :
+        forward(300)
+        left(90)
+    end_fill()  
+
+
+
+# 6
+
+def okno() :
+    penup()
+    goto(-550, -10)
+    pendown()
+    color('yellow')
+    begin_fill()
+    for i in range(2) :
+        forward(50)
+        right(90)
+        forward(80)
+        right(90)
+    end_fill()
+
+
+
+# 13
+
+def dym() :
+    penup()
+    goto(-370, 275)
+    pendown
+    color('light gray')
+    begin_fill()
+    circle(17)
+    end_fill()
+    penup()
+    goto(-350, 293)
+    pendown()
+    color('light gray')
+    begin_fill()
+    circle(27)
+    end_fill()
+    penup()
+    goto(-370, 318)
+    pendown()
+    color('light gray')
+    begin_fill()
+    circle(35)
+    right(2)
+    end_fill()
+
+
+
+# 10
+
+def derevo() :
+    penup()
+    goto(180, -250)
+    pendown()
+    color('brown')
+    begin_fill()
+    left(85)
+    forward(200)
+    right(84)
+    forward(30)
+    right(85)
+    forward(200)
+    end_fill()
+    penup()
+    goto(130, -20)
+    pendown
+    color('light green')
+    begin_fill()
+    circle(85)
+    end_fill()
+
+
+
+# 3
+
+def asphalt() :
+    penup()
+    goto(500, -150)
+    pendown()
+    color('black')
+    begin_fill()
+    forward(230)
+    right(80)
+    forward(400)
+    right(100)
+    forward(390)
+    right(100)
+    forward(401)
+    right(80)
+    end_fill()
+    penup()
+    goto(501, -150)
+    pendown()
+    color('white')
+    begin_fill()
+    forward(10)
+    right(100)
+    forward(300)
+    right(80)
+    forward(10)
+    right(100)
+    forward(300)
+    right(80)
+    end_fill()
+    penup()
+    goto(697, -150)
+    pendown()
+    forward(10)
+    right(80)
+    begin_fill()
+    forward(300)
+    right(100)
+    forward(10)
+    right(80)
+    forward(300)
+    right(100)
+    end_fill()
+    penup()
+    goto(600, -150)
+    pendown()
+    begin_fill()
+    forward(10)
+    right(90)
+    forward(60)
+    right(90)
+    forward(10)
+    right(90)
+    forward(60)
+    right(90)
+    end_fill()
+    penup()
+    goto(600, -237)
+    pendown()
+    begin_fill()
+    forward(10)
+    right(90)
+    forward(60)
+    right(90)
+    forward(10)
+    right(90)
+    forward(60)
+    right(90)
+    end_fill()
+
+
+
+# 12
+
+def derevo2() :
+    penup()
+    goto(-750, -250)
+    pendown()
+    color('brown')
+    begin_fill()
+    left(85)
+    forward(200)
+    right(84)
+    forward(30)
+    right(85)
+    forward(200)
+    end_fill()
+    penup()
+    goto(-800, -30)
+    pendown
+    color('light green')
+    begin_fill()
+    circle(85)
+    end_fill()
+
+
+
+
+#fon_nebo()
+#fon_zemlya()
+#asphalt()
+#dom_chast()
+#krysha()
+#okno()
+#rama()
+#dver()
+#garaj()
+#derevo()
+#dymohod()
+#dym()
+#derevo2()
+#sun()
+
+hideturtle()
